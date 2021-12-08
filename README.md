@@ -91,3 +91,48 @@ Good luck!
     let isCorrectAnswer = isEven(2) == true
     ```
 -----
+4. Write a function, call it `max`, that returns the maximum value in a given list of numbers.
+    ```swift
+    let isCorrectAnswer = max([1, 2, 3, 4]) == 4
+    let isCorrectAnswer = max([10, 5, -20, 818]) == 818
+    ```
+-----
+5. Write a function, call it `evens`, that returns the evens values from a given list of numbers.
+    ```swift
+    let isCorrectAnswer = evens([1, 2, 3, 4]) == [2, 4]
+    let isCorrectAnswer = evens(10, 5, -20, 818) == [10, -20. 818]
+    ```
+-----
+6. Write a function, call it `sumAll`, that returns the sum of a list of numbers.
+    ```swift
+    let isCorrectAnswer = sumAll([1, 2, 3]) == 6
+    let isCorrectAnswer = sumAll(10, 4) == 14
+    ```
+-----
+7. Write a function, call it `squishAndHalf`, that returns the sum of a list of numbers divided by 2.
+    ```swift
+    let isCorrectAnswer = squishAndHalf([1, 2, 3]) == 3
+    let isCorrectAnswer = squishAndHalf(10, 4) == 7
+    ```
+-----
+8. Write a function, call it `mean`, that returns the average of a list of numbers.  
+The average of a list of numbers is the sum of all the numbers, divided by the length of the list.
+    ```swift
+    let isCorrectAnswer = mean([2, 4]) == 3
+    let isCorrectAnswer = mean(5, 10, 6) == 7
+    ```
+-----
+9. Write a function, call it `areaOfCircle`, that returns the area of a circe for a given radius.  
+Check google for the equation that gives the area of a circle, use radius = 3.14.
+    ```swift
+    let isCorrectAnswer = areaOfCircle(2) == 12.56
+    let isCorrectAnswer = areaOfCircle(10) == 314
+    ```
+-----
+10. Write a function, call it `volume(radius, height)`, that returns the volume of a cylinder with a given radius and height.  
+Check google for the equation that gives the volume of a cylinder, use radius = 3.14.
+    ```swift
+    let isCorrectAnswer = areaOfCircle(2, 10) == 125.6
+    let isCorrectAnswer = areaOfCircle(10, 0.5) == 157
+    ```
+-----
