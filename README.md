@@ -59,11 +59,16 @@ Good luck!
     let isCorrectAnswer = numOfOccurrences("I like apples and I like video games", "like") == 2
     ```
 -----
-9. Write a function, call it `c.
+9. Write a function, call it `reverseWord` that rewrites a given string in reverse.
     ```swift
-    let isCorrectAnswer = numOfOccurrences("hi hi hi", "hi") == 3
-    let isCorrectAnswer = numOfOccurrences("hi hi hi", " hi ") == 1
-    let isCorrectAnswer = numOfOccurrences("I like apples and I like video games", "like") == 2
+    let isCorrectAnswer = reverseWord("abc") == "cba"
+    let isCorrectAnswer = reverseWord("hello") == "olleh"
+    ```
+-----
+10. Write a function, call it `mixWords` that mixes any two given strings.
+    ```swift
+    let isCorrectAnswer = numOfOccurrences("abc", "123") == "a1b2c3"
+    let isCorrectAnswer = numOfOccurrences("hello", "citizens") == "hceiltliozens"
     ```
 -----
 
