@@ -132,7 +132,7 @@ Check google for the equation that gives the area of a circle, use radius = 3.14
 10. Write a function, call it `volume(radius, height)`, that returns the volume of a cylinder with a given radius and height.  
 Check google for the equation that gives the volume of a cylinder, use radius = 3.14.
     ```swift
-    let isCorrectAnswer = areaOfCircle(2, 10) == 125.6
-    let isCorrectAnswer = areaOfCircle(10, 0.5) == 157
+    let isCorrectAnswer = volume(2, 10) == 125.6
+    let isCorrectAnswer = volume(10, 0.5) == 157
     ```
 -----
